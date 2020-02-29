@@ -1,0 +1,13 @@
+[package]
+name = "ecounter"
+version = "0.1.0"
+authors = []
+
+[lib]
+name = "ecounter"
+path = "src/ecounter.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+rustler = "0.21.0"
+atomic-counter = "1.0.1"
